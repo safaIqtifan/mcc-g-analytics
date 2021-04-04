@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FoodProductsActivity">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="278dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="50dp"
+        android:text="Shirt"
+        android:textColor="@color/white"
+        android:background="#4630FF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="278dp"
+        android:layout_height="112dp"
+        android:layout_marginBottom="50dp"
+        android:text="dress"
+        android:textColor="@color/white"
+        android:background="#4630FF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button3"
+        android:layout_width="278dp"
+        android:layout_height="112dp"
+        android:text="skirt"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="#4630FF"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+</LinearLayout>

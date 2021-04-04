@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.googleanalytics">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".RootApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GoogleAnalytics">
+        <activity android:name=".SmartTvActivity"></activity>
+        <activity android:name=".IphoneXActivity" />
+        <activity android:name=".LaptopHpActivity" />
+        <activity android:name=".skirtActivity" />
+        <activity android:name=".dressActivity" />
+        <activity android:name=".ShirtActivity" />
+        <activity android:name=".FalafelActivity" />
+        <activity android:name=".PastriesActivity" />
+        <activity android:name=".PizzaActivity" />
+        <activity android:name=".ElectronicProductsActivity" />
+        <activity android:name=".ClothesProductsActivity" />
+        <activity android:name=".FoodProductsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
